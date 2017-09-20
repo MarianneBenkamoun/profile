@@ -1,0 +1,116 @@
+img.img-circle{
+  display: block;
+  width:330px;
+  height: 330px;
+  border-radius:165px;
+  box-shadow: 5px 5px 3px black;
+  margin:auto;
+}
+
+.card {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px grey;
+  background: white;  /* fallback for old browsers */
+}
+
+.container {
+   /* This sets the width */
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: #3494E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+td img.img-circle{
+  display: block;
+  width:100px;
+  height: 100px;
+  border-radius:150px;
+  box-shadow: 5px 5px 3px black;
+  margin:auto;
+}
+body  {
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(50,50,50);
+}
+
+h1 {
+  font-size: 30px;
+  color: black;
+}
+
+ h2,h4 {
+  font-weight: 100;
+}
+
+.nom, .metier {
+  line-height: 1.6;
+  letter-spacing: 3px;
+  text-align:center;
+}
+
+h4.tableau-element {
+  line-height: 1.6;
+  text-align:left;
+}
+
+a:hover {
+  background-color: gold;
+}
+
+td {
+  padding: 15px;
+
+}
+
+.favorite-movies{
+   padding-top: 0px;
+   line-height: 1.6;
+   letter-spacing: 3px;
+   text-align:center;
+}
+
+table {
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:0px;
+  margin-bottom: 20px;
+  text-align: right;
+
+     }
+
+ul, li, a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(50, 50, 50);
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+
+div p{
+/*  background: white;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  width: 400px;        /* Set the width */
+  margin: 0 auto;
+
+ }
+
+ .list-inline > li {
+   display: inline-block;
+   padding: 0px 20px;
+   color:red;
+ }
+
+ .list-inline {
+   padding-left: 0px;
+ }
+
